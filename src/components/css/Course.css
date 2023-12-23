@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color:#fff;
+  text-decoration: none;
+}
+.course {
+  width: 100%;
+  height:100vh;
+  color:#fff;
+  border-top: 1px solid #fff;
+  background: #222;
+}
+.header{
+  position: relative;
+  top: 10vh;
+  text-align: center;
+}
+.react  {
+  text-align: center;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.react:hover {
+  text-decoration: underline;
+  color:#0000ff;
+}
+.react-dom {
+  margin-top: 25vh;
+}
